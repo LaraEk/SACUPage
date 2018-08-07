@@ -1,12 +1,3 @@
-
-/* html {
-    background: url(Gardsplanen_small_fade.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-} */
-  
 h1 {
     font-family: 'Raleway';
     font-weight: bold;
@@ -21,15 +12,22 @@ h2 {
     color: #fafafa;
 }
 
-p {
+.carouselp {
     font-family: 'Raleway';
     color: #fafafa;
     font-size: 25px;
 }
 
-\
+.carousel .item {
+    height: 650px;
+  }
+  
+
+
+/* -------------------- NAVBAR -------------------- */
+
   #thisisnavbar {
-    background:transparent;
+    /* background:transparent; */
     font-family: 'Raleway';
     color: #fafafa;
     font-size: 25px;
@@ -38,10 +36,12 @@ p {
   .navbar-brand {
     font-family: 'Raleway';
     color: #fafafa;
-    font-size: 25px;
+    font-size: 40px;
   }
+/* -------------------- </NAVBAR> -------------------- */
   
-  A:link { 
+/* -------------------- LINKS -------------------- */
+A:link { 
     color: #634731; 
   } 
   A:visited { 
@@ -53,39 +53,35 @@ p {
   A:hover { 
     color: #24656b;
   }  
+/* -------------------- </LINKS> -------------------- */
   
-  #portfoliopagecontainer {
+
+#portfoliopagecontainer {
     margin: 5% 10% 5% 10%;
-  }
+}
   
-  .portpic {
+.portpic {
     padding: 20px;
     text-align: center;
     border-radius: 50%;
-  }
+}
   
-  #nextimages {
+#nextimages {
     float: left;
-  }
+}
   
     
-  /*this is for just the footer*/
-  footer {
-    height: 50px;
+/* -------------------- FOOTER -------------------- */
+footer {
+    height: 25px;
     color: #18494d;
     bottom: 0;
     left: 0;
     background:transparent;
     position: fixed;
     width: 100%;
-    text-align: center;
+    text-align: right;
     padding: 5px; 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  }
-  
-  .footerclick {
-    color: red;
-  }
-  /*done with the footer, too*/
-  
-  /*all done! ٩(^ᴗ^)۶ */
+}
+/* -------------------- </FOOTER> -------------------- */
