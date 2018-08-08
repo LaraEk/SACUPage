@@ -22,7 +22,7 @@
 
   <body id="pagebody" style="background-color:rgb(239, 242, 243)">
 
-    <!-- Below is just the Navbar -->
+    <!-- Navbar -->
     <nav class="navbar navbar-default navbar-fixed-top" id="thisisnavbar" >
         <div class="container-fluid">
           <div class="navbar-header">
@@ -42,7 +42,7 @@
           </ul>
         </div>
       </nav>
-    <!-- Here ends all Navbar stuff -->
+    <!-- end Navbar -->
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -91,25 +91,45 @@
     </a>
 </div>
   
-<div class="container text-center">    
+<div class="container">    
   <h3>What We Do</h3><br>
   <div class="row">
-    <div class="col-sm-4">
-      <img src="calendar-icon.jpg" class="img-responsive" style="width:100%" alt="Image">
-      <p>OUR CALENDAR</p>
+    <div class="col-sm-4" id="calendarbox">
+      <!-- <img src="calendar-icon.jpg" class="img-responsive" style="width:100%" alt="Image"> -->
+          <h3><center><span class="glyphicon glyphicon-calendar" ></span> CALENDAR OF EVENTS</center></h3>
+          <br>
+          <ul>
+        <li><b>September:</b> Our September meeting will be on <b>[DATE]</b>, and will be <b>[SPEAKER/SUBJECT]</b>. Click here for more information.</li>
+        <li><b>October</b> Our October meeting will be on <b>[DATE]</b>, and will be <b>[SPEAKER/SUBJECT]</b>. Click here for more information.</li>
+        <li><b>November:</b> Our November meeting will be on <b>[DATE]</b>, and will be <b>[SPEAKER/SUBJECT]</b>. Click here for more information.</li>
+        <li><b>December:</b> Our December meeting will be on <b>[DATE]</b>, and will be <b>[SPEAKER/SUBJECT]</b>. Click here for more information.</li>
+      </ul>
+      <p>All of our events are held at: </p>
+      <p><center>Marriott Key Bridge Hotel 
+        <br>1401 Lee Highway 
+        <br>Rosslyn</center></p>
     </div>
-    <div class="col-sm-4"> 
+
+    <div class="col-sm-4" id="nexteventbox"> 
       <img src="phillipspreview.jpg" class="img-responsive" style="width:100%" alt="Image">
-      <p>NORDIC IMPRESSIONS ART EVENT</p>    
+      <h4>NORDIC IMPRESSIONS ART EVENT</h4>    
+      <p>Art historian Dr Klaus Ottmann, Deputy Director for Curatorial and Academic Affairs at The Phillips Collection in Washington, D.C., 
+        curates the upcoming Phillips exhibition, "Nordic Impressions:  Art from Aland, Denmark, the Faroe Islands, Finland, Greenland, Iceland, Norway and Sweden, 1821-2018."
+      </p>
+      <p>The Nordic Impressions Art Event will take place on [DATE].</p>   
     </div>
+
     <div class="col-sm-4">
       <div class="well">
-       <p>[Text Box]</p>
+       <h4><span class="glyphicon glyphicon-bullhorn"></span> Recent Announcement: </h4>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
       </div>
       <div class="well">
-       <p>[Text Box]</p>
+        <h4><span class="glyphicon glyphicon-bullhorn"></span> Previous Announcement: </h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
       </div>
     </div>
+
   </div>
 </div><br>
 
